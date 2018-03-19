@@ -164,6 +164,9 @@ if [[ -o interactive ]] && [[ -o login || -n "${ZSH_HACKER_QUOTES_ENABLE_WHEN_IN
         "A Computer is a state machine. Threads are for people who can't program state machines.\n - Alan Cox"
         "Not everything worth doing is worth doing well.\n - Tom West"
         "Peace comes from thinking.\n - N.S.A"
+
+        # Non hacker quotes
+        "Doing the unrealistic is easier than doing the realistic.\n - Tim Ferris"
     )
     echo "${hacker_quotes[RANDOM % #hacker_quotes + 1]}"
     echo
